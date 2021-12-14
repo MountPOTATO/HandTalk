@@ -15,7 +15,7 @@ Tongji Univ. SSE IOS Application Development coursework (final project) : An Dem
 
 The dataset link: https://www.kaggle.com/grassknoted/asl-alphabet
 
-The final version of mlmodel originates from the latest techniques from WWDC 2021 (https://developer.apple.com/videos/play/wwdc2021/10039/). Previous version includes using CreateML Image Classifier model, and an transformed mlmodel from Pytorch model (using coremltools) , which gave unsatisfied performance on real-time debugging.
+The final version of mlmodel originates from the latest techniques from WWDC 2021 (https://developer.apple.com/videos/play/wwdc2021/10039/). Previous version includes using CreateML Image Classifier model, and an transformed mlmodel from Pytorch model (using coremltools) , which gave disappointing performance on real-time debugging.
 
 A diagram of the model structure can be seen in Snapshots. 
 
