@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF232A7327531A56009D900E /* HandTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A7227531A56009D900E /* HandTalkApp.swift */; };
+		FF232A7527531A56009D900E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A7427531A56009D900E /* ContentView.swift */; };
+		FF232A7727531A57009D900E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF232A7627531A57009D900E /* Assets.xcassets */; };
+		FF232A7A27531A57009D900E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF232A7927531A57009D900E /* Preview Assets.xcassets */; };
+		FF232A8227532002009D900E /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A8127532002009D900E /* HomePageView.swift */; };
+		FF232A84275328E8009D900E /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A83275328E8009D900E /* CarouselView.swift */; };
+		FF232A8E27532B5A009D900E /* AppLifeCycleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A8927532B5A009D900E /* AppLifeCycleModifier.swift */; };
+		FF232A8F27532B5A009D900E /* View+ReceiveTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A8A27532B5A009D900E /* View+ReceiveTimer.swift */; };
+		FF232A9027532B5A009D900E /* ACarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A8B27532B5A009D900E /* ACarouselViewModel.swift */; };
+		FF232A9127532B5A009D900E /* ACarouselAutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A8C27532B5A009D900E /* ACarouselAutoScroll.swift */; };
+		FF232A9227532B5A009D900E /* ACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A8D27532B5A009D900E /* ACarousel.swift */; };
+		FF232A972753650C009D900E /* AlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232A962753650C009D900E /* AlphabetView.swift */; };
+		FF232AA72753C90F009D900E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232AA62753C90F009D900E /* CameraViewController.swift */; };
+		FF232AA92753D7C4009D900E /* RecognizeCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232AA82753D7C4009D900E /* RecognizeCameraView.swift */; };
+		FF232AAE2754AA17009D900E /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232AAD2754AA17009D900E /* Extention.swift */; };
+		FF232AB02754C7A6009D900E /* AlphabetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232AAF2754C7A6009D900E /* AlphabetViewModel.swift */; };
+		FF232AB22755F2BB009D900E /* FaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF232AB12755F2BB009D900E /* FaintView.swift */; };
+		FF9D498727570D16000F1F22 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D498627570D16000F1F22 /* SuccessView.swift */; };
+		FFD16A73276882C800B6AA71 /* ASLHandPoseClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FFD16A72276882C800B6AA71 /* ASLHandPoseClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF232A6F27531A56009D900E /* HandTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF232A7227531A56009D900E /* HandTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTalkApp.swift; sourceTree = "<group>"; };
+		FF232A7427531A56009D900E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF232A7627531A57009D900E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF232A7927531A57009D900E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF232A8127532002009D900E /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		FF232A83275328E8009D900E /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		FF232A8927532B5A009D900E /* AppLifeCycleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLifeCycleModifier.swift; sourceTree = "<group>"; };
+		FF232A8A27532B5A009D900E /* View+ReceiveTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ReceiveTimer.swift"; sourceTree = "<group>"; };
+		FF232A8B27532B5A009D900E /* ACarouselViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarouselViewModel.swift; sourceTree = "<group>"; };
+		FF232A8C27532B5A009D900E /* ACarouselAutoScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarouselAutoScroll.swift; sourceTree = "<group>"; };
+		FF232A8D27532B5A009D900E /* ACarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarousel.swift; sourceTree = "<group>"; };
+		FF232A962753650C009D900E /* AlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetView.swift; sourceTree = "<group>"; };
+		FF232AA52753BD53009D900E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FF232AA62753C90F009D900E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FF232AA82753D7C4009D900E /* RecognizeCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizeCameraView.swift; sourceTree = "<group>"; };
+		FF232AAD2754AA17009D900E /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		FF232AAF2754C7A6009D900E /* AlphabetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetViewModel.swift; sourceTree = "<group>"; };
+		FF232AB12755F2BB009D900E /* FaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaintView.swift; sourceTree = "<group>"; };
+		FF9D498627570D16000F1F22 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		FFD16A72276882C800B6AA71 /* ASLHandPoseClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ASLHandPoseClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF232A6C27531A56009D900E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF232A6627531A56009D900E = {
+			isa = PBXGroup;
+			children = (
+				FF232A7127531A56009D900E /* HandTalk */,
+				FF232A7027531A56009D900E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF232A7027531A56009D900E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF232A6F27531A56009D900E /* HandTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF232A7127531A56009D900E /* HandTalk */ = {
+			isa = PBXGroup;
+			children = (
+				FF232AAC2754A9FD009D900E /* Extention */,
+				FF232AA52753BD53009D900E /* Info.plist */,
+				FF232A9A2753A2B8009D900E /* ViewModel */,
+				FF232A9327536442009D900E /* MLModel */,
+				FF232A8727532B30009D900E /* ThirdPartyService */,
+				FF232A8027531FF4009D900E /* View */,
+				FF232A7227531A56009D900E /* HandTalkApp.swift */,
+				FF232A7427531A56009D900E /* ContentView.swift */,
+				FF232A7627531A57009D900E /* Assets.xcassets */,
+				FF232A7827531A57009D900E /* Preview Content */,
+			);
+			path = HandTalk;
+			sourceTree = "<group>";
+		};
+		FF232A7827531A57009D900E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF232A7927531A57009D900E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF232A8027531FF4009D900E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF232A8127532002009D900E /* HomePageView.swift */,
+				FF232A83275328E8009D900E /* CarouselView.swift */,
+				FF232A962753650C009D900E /* AlphabetView.swift */,
+				FF232AA82753D7C4009D900E /* RecognizeCameraView.swift */,
+				FF232AB12755F2BB009D900E /* FaintView.swift */,
+				FF9D498627570D16000F1F22 /* SuccessView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF232A8727532B30009D900E /* ThirdPartyService */ = {
+			isa = PBXGroup;
+			children = (
+				FF232A8827532B3A009D900E /* ACarousel */,
+			);
+			path = ThirdPartyService;
+			sourceTree = "<group>";
+		};
+		FF232A8827532B3A009D900E /* ACarousel */ = {
+			isa = PBXGroup;
+			children = (
+				FF232A8D27532B5A009D900E /* ACarousel.swift */,
+				FF232A8C27532B5A009D900E /* ACarouselAutoScroll.swift */,
+				FF232A8B27532B5A009D900E /* ACarouselViewModel.swift */,
+				FF232A8927532B5A009D900E /* AppLifeCycleModifier.swift */,
+				FF232A8A27532B5A009D900E /* View+ReceiveTimer.swift */,
+			);
+			path = ACarousel;
+			sourceTree = "<group>";
+		};
+		FF232A9327536442009D900E /* MLModel */ = {
+			isa = PBXGroup;
+			children = (
+				FFD16A72276882C800B6AA71 /* ASLHandPoseClassifier.mlmodel */,
+			);
+			path = MLModel;
+			sourceTree = "<group>";
+		};
+		FF232A9A2753A2B8009D900E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF232AA62753C90F009D900E /* CameraViewController.swift */,
+				FF232AAF2754C7A6009D900E /* AlphabetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF232AAC2754A9FD009D900E /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				FF232AAD2754AA17009D900E /* Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF232A6E27531A56009D900E /* HandTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF232A7D27531A57009D900E /* Build configuration list for PBXNativeTarget "HandTalk" */;
+			buildPhases = (
+				FF232A6B27531A56009D900E /* Sources */,
+				FF232A6C27531A56009D900E /* Frameworks */,
+				FF232A6D27531A56009D900E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandTalk;
+			productName = HandTalk;
+			productReference = FF232A6F27531A56009D900E /* HandTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF232A6727531A56009D900E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FF232A6E27531A56009D900E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = FF232A6A27531A56009D900E /* Build configuration list for PBXProject "HandTalk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF232A6627531A56009D900E;
+			productRefGroup = FF232A7027531A56009D900E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF232A6E27531A56009D900E /* HandTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF232A6D27531A56009D900E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF232A7A27531A57009D900E /* Preview Assets.xcassets in Resources */,
+				FF232A7727531A57009D900E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF232A6B27531A56009D900E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD16A73276882C800B6AA71 /* ASLHandPoseClassifier.mlmodel in Sources */,
+				FF232AB02754C7A6009D900E /* AlphabetViewModel.swift in Sources */,
+				FF232A8E27532B5A009D900E /* AppLifeCycleModifier.swift in Sources */,
+				FF9D498727570D16000F1F22 /* SuccessView.swift in Sources */,
+				FF232A7527531A56009D900E /* ContentView.swift in Sources */,
+				FF232A8F27532B5A009D900E /* View+ReceiveTimer.swift in Sources */,
+				FF232AB22755F2BB009D900E /* FaintView.swift in Sources */,
+				FF232A9127532B5A009D900E /* ACarouselAutoScroll.swift in Sources */,
+				FF232A8227532002009D900E /* HomePageView.swift in Sources */,
+				FF232A7327531A56009D900E /* HandTalkApp.swift in Sources */,
+				FF232A9027532B5A009D900E /* ACarouselViewModel.swift in Sources */,
+				FF232AAE2754AA17009D900E /* Extention.swift in Sources */,
+				FF232A972753650C009D900E /* AlphabetView.swift in Sources */,
+				FF232AA72753C90F009D900E /* CameraViewController.swift in Sources */,
+				FF232A9227532B5A009D900E /* ACarousel.swift in Sources */,
+				FF232A84275328E8009D900E /* CarouselView.swift in Sources */,
+				FF232AA92753D7C4009D900E /* RecognizeCameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF232A7B27531A57009D900E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF232A7C27531A57009D900E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF232A7E27531A57009D900E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = P6GT256UQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HandTalk/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "This\\ app\\ needs\\ to\\ access\\ your\\ camera. UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-503253721-qq.com.HandTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF232A7F27531A57009D900E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HandTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = P6GT256UQZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HandTalk/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "This\\ app\\ needs\\ to\\ access\\ your\\ camera. UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-503253721-qq.com.HandTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF232A6A27531A56009D900E /* Build configuration list for PBXProject "HandTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF232A7B27531A57009D900E /* Debug */,
+				FF232A7C27531A57009D900E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF232A7D27531A57009D900E /* Build configuration list for PBXNativeTarget "HandTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF232A7E27531A57009D900E /* Debug */,
+				FF232A7F27531A57009D900E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF232A6727531A56009D900E /* Project object */;
+}
