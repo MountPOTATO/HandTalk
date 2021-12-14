@@ -19,7 +19,5 @@ The final version of mlmodel originates from the latest techniques from WWDC 202
 
 A diagram of the model structure can be seen in Snapshots. 
 
-The performance on test dataset are as follows: 
 
-![test performance](./HandTalk/Snapshots/test performance.png)
 
